@@ -18,6 +18,7 @@ elsif (player_hand == 0 && program_hand == 1) ||
       puts "あなたの勝ちです"
       @janken_judge = "win"
       achimuite
+     
       
 else 
   puts "あなたの手:#{jankens[player_hand]},プログラムが選んだ手:#{jankens[program_hand]}"
