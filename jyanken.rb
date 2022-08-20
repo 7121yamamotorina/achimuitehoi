@@ -50,7 +50,7 @@ def achimuite
     puts "プログラムが指差した方向:#{achimuites[program_face]},あなたが向いた方向:#{achimuites[player_face]}"
     puts "あなたもなかなかやりますね！"
     puts "もう一度、じゃんけんから"
-
+      next_game = true
     end
   end
   next_game = true
